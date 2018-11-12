@@ -1,9 +1,16 @@
-void setup() {
-  int a = 0;
+#include "cardio.h"
 
+int pulseAverage = 0;
+
+void setup() {
+  Serial.begin(9600);
+  pulseAverage = simulatePulseInputInit();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  int simulatedPulse = simulatePulseInputLoop(pulseAverage);
+  unsigned long leftTime = millis();
+  Serial.print(leftTime);
+  Serial.print(" - ");
+  Serial.println(simulatedPulse);
 }
