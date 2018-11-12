@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest
+CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CSVLibraryTest.dir/depend.make
@@ -58,68 +58,81 @@ include CMakeFiles/CSVLibraryTest.dir/flags.make
 
 CMakeFiles/CSVLibraryTest.dir/main.c.obj: CMakeFiles/CSVLibraryTest.dir/flags.make
 CMakeFiles/CSVLibraryTest.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CSVLibraryTest.dir/main.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\main.c.obj   -c C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CSVLibraryTest.dir/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\main.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\main.c
 
 CMakeFiles/CSVLibraryTest.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSVLibraryTest.dir/main.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\main.c > CMakeFiles\CSVLibraryTest.dir\main.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\main.c > CMakeFiles\CSVLibraryTest.dir\main.c.i
 
 CMakeFiles/CSVLibraryTest.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSVLibraryTest.dir/main.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\main.c -o CMakeFiles\CSVLibraryTest.dir\main.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\main.c -o CMakeFiles\CSVLibraryTest.dir\main.c.s
 
 CMakeFiles/CSVLibraryTest.dir/features/reader.c.obj: CMakeFiles/CSVLibraryTest.dir/flags.make
 CMakeFiles/CSVLibraryTest.dir/features/reader.c.obj: ../features/reader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CSVLibraryTest.dir/features/reader.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\reader.c.obj   -c C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\reader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CSVLibraryTest.dir/features/reader.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\reader.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\reader.c
 
 CMakeFiles/CSVLibraryTest.dir/features/reader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSVLibraryTest.dir/features/reader.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\reader.c > CMakeFiles\CSVLibraryTest.dir\features\reader.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\reader.c > CMakeFiles\CSVLibraryTest.dir\features\reader.c.i
 
 CMakeFiles/CSVLibraryTest.dir/features/reader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSVLibraryTest.dir/features/reader.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\reader.c -o CMakeFiles\CSVLibraryTest.dir\features\reader.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\reader.c -o CMakeFiles\CSVLibraryTest.dir\features\reader.c.s
 
 CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj: CMakeFiles/CSVLibraryTest.dir/flags.make
 CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj: ../features/writer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\writer.c.obj   -c C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\writer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\writer.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\writer.c
 
 CMakeFiles/CSVLibraryTest.dir/features/writer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSVLibraryTest.dir/features/writer.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\writer.c > CMakeFiles\CSVLibraryTest.dir\features\writer.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\writer.c > CMakeFiles\CSVLibraryTest.dir\features\writer.c.i
 
 CMakeFiles/CSVLibraryTest.dir/features/writer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSVLibraryTest.dir/features/writer.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\writer.c -o CMakeFiles\CSVLibraryTest.dir\features\writer.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\writer.c -o CMakeFiles\CSVLibraryTest.dir\features\writer.c.s
 
 CMakeFiles/CSVLibraryTest.dir/features/reseter.c.obj: CMakeFiles/CSVLibraryTest.dir/flags.make
 CMakeFiles/CSVLibraryTest.dir/features/reseter.c.obj: ../features/reseter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CSVLibraryTest.dir/features/reseter.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\reseter.c.obj   -c C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\reseter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CSVLibraryTest.dir/features/reseter.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\reseter.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\reseter.c
 
 CMakeFiles/CSVLibraryTest.dir/features/reseter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSVLibraryTest.dir/features/reseter.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\reseter.c > CMakeFiles\CSVLibraryTest.dir\features\reseter.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\reseter.c > CMakeFiles\CSVLibraryTest.dir\features\reseter.c.i
 
 CMakeFiles/CSVLibraryTest.dir/features/reseter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSVLibraryTest.dir/features/reseter.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\reseter.c -o CMakeFiles\CSVLibraryTest.dir\features\reseter.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\reseter.c -o CMakeFiles\CSVLibraryTest.dir\features\reseter.c.s
 
 CMakeFiles/CSVLibraryTest.dir/features/remover.c.obj: CMakeFiles/CSVLibraryTest.dir/flags.make
 CMakeFiles/CSVLibraryTest.dir/features/remover.c.obj: ../features/remover.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CSVLibraryTest.dir/features/remover.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\remover.c.obj   -c C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\remover.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CSVLibraryTest.dir/features/remover.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\remover.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\remover.c
 
 CMakeFiles/CSVLibraryTest.dir/features/remover.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSVLibraryTest.dir/features/remover.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\remover.c > CMakeFiles\CSVLibraryTest.dir\features\remover.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\remover.c > CMakeFiles\CSVLibraryTest.dir\features\remover.c.i
 
 CMakeFiles/CSVLibraryTest.dir/features/remover.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSVLibraryTest.dir/features/remover.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\features\remover.c -o CMakeFiles\CSVLibraryTest.dir\features\remover.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\remover.c -o CMakeFiles\CSVLibraryTest.dir\features\remover.c.s
+
+CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj: CMakeFiles/CSVLibraryTest.dir/flags.make
+CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj: ../features/csv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CSVLibraryTest.dir\features\csv.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\csv.c
+
+CMakeFiles/CSVLibraryTest.dir/features/csv.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CSVLibraryTest.dir/features/csv.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\csv.c > CMakeFiles\CSVLibraryTest.dir\features\csv.c.i
+
+CMakeFiles/CSVLibraryTest.dir/features/csv.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CSVLibraryTest.dir/features/csv.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\features\csv.c -o CMakeFiles\CSVLibraryTest.dir\features\csv.c.s
 
 # Object files for target CSVLibraryTest
 CSVLibraryTest_OBJECTS = \
@@ -127,7 +140,8 @@ CSVLibraryTest_OBJECTS = \
 "CMakeFiles/CSVLibraryTest.dir/features/reader.c.obj" \
 "CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj" \
 "CMakeFiles/CSVLibraryTest.dir/features/reseter.c.obj" \
-"CMakeFiles/CSVLibraryTest.dir/features/remover.c.obj"
+"CMakeFiles/CSVLibraryTest.dir/features/remover.c.obj" \
+"CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj"
 
 # External object files for target CSVLibraryTest
 CSVLibraryTest_EXTERNAL_OBJECTS =
@@ -137,11 +151,12 @@ CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/features/reader.c.obj
 CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj
 CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/features/reseter.c.obj
 CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/features/remover.c.obj
+CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj
 CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/build.make
 CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/linklibs.rsp
 CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/objects1.rsp
 CSVLibraryTest.exe: CMakeFiles/CSVLibraryTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable CSVLibraryTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable CSVLibraryTest.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CSVLibraryTest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +169,6 @@ CMakeFiles/CSVLibraryTest.dir/clean:
 .PHONY : CMakeFiles/CSVLibraryTest.dir/clean
 
 CMakeFiles/CSVLibraryTest.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles\CSVLibraryTest.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles\CSVLibraryTest.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CSVLibraryTest.dir/depend
 

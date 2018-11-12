@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj"
   "CMakeFiles/CSVLibraryTest.dir/features/reseter.c.obj"
   "CMakeFiles/CSVLibraryTest.dir/features/remover.c.obj"
+  "CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj"
   "CSVLibraryTest.pdb"
   "CSVLibraryTest.exe"
   "CSVLibraryTest.exe.manifest"

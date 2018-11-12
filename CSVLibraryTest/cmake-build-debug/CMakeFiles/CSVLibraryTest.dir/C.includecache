@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/features/csv.c
+stdio.h
+-
+stdlib.h
+-
+features.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/features/features.h
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/features/features.h
+

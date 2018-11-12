@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest
+CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Documents\GitHub\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\CSVLibraryTest\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ CSVLibraryTest: cmake_check_build_system
 CSVLibraryTest/fast:
 	$(MAKE) -f CMakeFiles\CSVLibraryTest.dir\build.make CMakeFiles/CSVLibraryTest.dir/build
 .PHONY : CSVLibraryTest/fast
+
+features/csv.obj: features/csv.c.obj
+
+.PHONY : features/csv.obj
+
+# target to build an object file
+features/csv.c.obj:
+	$(MAKE) -f CMakeFiles\CSVLibraryTest.dir\build.make CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj
+.PHONY : features/csv.c.obj
+
+features/csv.i: features/csv.c.i
+
+.PHONY : features/csv.i
+
+# target to preprocess a source file
+features/csv.c.i:
+	$(MAKE) -f CMakeFiles\CSVLibraryTest.dir\build.make CMakeFiles/CSVLibraryTest.dir/features/csv.c.i
+.PHONY : features/csv.c.i
+
+features/csv.s: features/csv.c.s
+
+.PHONY : features/csv.s
+
+# target to generate assembly for a file
+features/csv.c.s:
+	$(MAKE) -f CMakeFiles\CSVLibraryTest.dir\build.make CMakeFiles/CSVLibraryTest.dir/features/csv.c.s
+.PHONY : features/csv.c.s
 
 features/reader.obj: features/reader.c.obj
 
@@ -266,6 +293,9 @@ help:
 	@echo ... CSVLibraryTest
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... features/csv.obj
+	@echo ... features/csv.i
+	@echo ... features/csv.s
 	@echo ... features/reader.obj
 	@echo ... features/reader.i
 	@echo ... features/reader.s
