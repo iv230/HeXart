@@ -10,7 +10,6 @@ void setup() {
 void loop() {
   int simulatedPulse = simulatePulseInputLoop(pulseAverage);
   unsigned long leftTime = millis();
-  Serial.print(leftTime);
-  Serial.print(" - ");
+  Serial.println(leftTime);
   Serial.println(simulatedPulse);
 }
