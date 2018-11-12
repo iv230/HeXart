@@ -149,6 +149,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/main.c.s
 .PHONY : main.c.s
 
+menu/menu.obj: menu/menu.c.obj
+
+.PHONY : menu/menu.obj
+
+# target to build an object file
+menu/menu.c.obj:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj
+.PHONY : menu/menu.c.obj
+
+menu/menu.i: menu/menu.c.i
+
+.PHONY : menu/menu.i
+
+# target to preprocess a source file
+menu/menu.c.i:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/menu/menu.c.i
+.PHONY : menu/menu.c.i
+
+menu/menu.s: menu/menu.c.s
+
+.PHONY : menu/menu.s
+
+# target to generate assembly for a file
+menu/menu.c.s:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/menu/menu.c.s
+.PHONY : menu/menu.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... menu/menu.obj
+	@echo ... menu/menu.i
+	@echo ... menu/menu.s
 .PHONY : help
 
 

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/main.c" "C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/main.c.obj"
+  "C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.c" "C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

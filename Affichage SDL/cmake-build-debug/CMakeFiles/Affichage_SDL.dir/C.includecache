@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.c
+stdbool.h
+-
+SDL/SDL.h
+-
+SDL/SDL_image.h
+-
+menu.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h
+

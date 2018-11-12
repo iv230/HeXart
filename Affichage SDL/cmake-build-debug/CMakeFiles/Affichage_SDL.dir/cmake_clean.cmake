@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Affichage_SDL.dir/main.c.obj"
+  "CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj"
   "Affichage_SDL.pdb"
   "Affichage_SDL.exe"
   "Affichage_SDL.exe.manifest"

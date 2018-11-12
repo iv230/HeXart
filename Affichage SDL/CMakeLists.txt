@@ -3,4 +3,6 @@ project(Affichage_SDL C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Affichage_SDL main.c)
+link_libraries(-lmingw32 -lSDLmain -lSDL -lSDL_image)
+
+add_executable(Affichage_SDL main.c menu/menu.c)
