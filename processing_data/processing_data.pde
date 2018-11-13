@@ -7,21 +7,23 @@ PrintWriter output;
 Serial udSerial;
 
 void setup() {
-  udSerial = new Serial(this, Serial.list()[0], 9600);
+  udSerial = new Serial(this, Serial.list()[2], 9600);
+  printArray(Serial.list());
   output = createWriter ("Battements.csv");
+  output.println("timestamp,pulse");
 }
 
-  void draw() {
-    if (udSerial.available() > 0) {
-      String SenVal = udSerial.readString();
-      if (SenVal != null) {
-        output.println(SenVal);
-      }
+void draw() {
+  if (udSerial.available() > 0) {
+    String SenVal = udSerial.readString();
+    if (SenVal != null) {
+      output.println(SenVal);
     }
   }
+}
 
-  void keyPressed(){
-    output.flush();
-    output.close();
-    exit(); 
-  }
+void keyPressed() {
+  output.flush();
+  output.close();
+  exit();
+}

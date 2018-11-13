@@ -31,8 +31,8 @@ void loop() {
   int simulatedPulse = simulatePulseInputLoop(pulseAverage);
   unsigned long leftTime = millis();
 
-  Serial.println(leftTime);
-  Serial.println(simulatedPulse);
+  String data = String(String(leftTime) + "," + String(simulatedPulse));
+  Serial.print(data);
 
   switch (mode) {
     case 1:
