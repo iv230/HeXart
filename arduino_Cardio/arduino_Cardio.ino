@@ -1,9 +1,12 @@
 #include "cardio.h"
+#include "param.h"
+#include "leds.h"
+
+int choice = CHOICE;
+int mode = MODE;
 
 int pulseAverage = 0;
-int mode;
 int current = 2;
-int choice = 2;
 
 void setup() {
   Serial.begin(9600);
@@ -14,17 +17,17 @@ void setup() {
     delay(100);
     digitalWrite(i, LOW);
   }
-//  Serial.println("Entrez le mode :");
-//  while (Serial.available() == 0) {}
-//  mode = Serial.parseInt();
-//
-//  Serial.flush();
-//  if (mode == 5) {
-//    Serial.println("Choose a LED");
-//    while (Serial.available() == 0) {}
-//    choice = Serial.parseInt();
-//  }
-  mode = 2;
+  
+  Serial.println("Entrez le mode :");
+  while (Serial.available() == 0) {}
+  mode = Serial.parseInt();
+
+  Serial.flush();
+  if (mode == 5) {
+    Serial.println("Choose a LED");
+    while (Serial.available() == 0) {Serial.println("test");}
+    choice = Serial.parseInt();
+  }
 }
 
 void loop() {
