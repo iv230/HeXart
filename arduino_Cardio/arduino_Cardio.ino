@@ -8,22 +8,23 @@ int choice = 2;
 void setup() {
   Serial.begin(9600);
   pulseAverage = simulatePulseInputInit();
-  for (int i = 1; i < 10; i++) {
-    pinMode(i, OUTPUT);
-    digitalWrite(i, HIGH);
-    delay(100);
-    digitalWrite(i, LOW);
-  }
-  Serial.println("Entrez le mode :");
-  while (Serial.available() == 0) {}
-  mode = Serial.parseInt();
-
-  Serial.flush();
-  if (mode == 5) {
-    Serial.println("Choose a LED");
-    while (Serial.available() == 0) {}
-    choice = Serial.parseInt();
-  }
+//  for (int i = 1; i < 10; i++) {
+//    pinMode(i, OUTPUT);
+//    digitalWrite(i, HIGH);
+//    delay(100);
+//    digitalWrite(i, LOW);
+//  }
+//  Serial.println("Entrez le mode :");
+//  while (Serial.available() == 0) {}
+//  mode = Serial.parseInt();
+//
+//  Serial.flush();
+//  if (mode == 5) {
+//    Serial.println("Choose a LED");
+//    while (Serial.available() == 0) {}
+//    choice = Serial.parseInt();
+//  }
+  mode = 2;
 }
 
 void loop() {
