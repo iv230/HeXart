@@ -18,7 +18,7 @@ void setup() {
     digitalWrite(i, LOW);
   }
   
-  Serial.println("Entrez le mode :");
+  /*Serial.println("Entrez le mode :");
   while (Serial.available() == 0) {}
   mode = Serial.parseInt();
 
@@ -27,14 +27,15 @@ void setup() {
     Serial.println("Choose a LED");
     while (Serial.available() == 0) {}
     choice = Serial.parseInt();
-  }
+  }*/
+  mode = 1;
 }
 
 void loop() {
   int simulatedPulse = simulatePulseInputLoop(pulseAverage);
   unsigned long leftTime = millis();
 
-  String data = String(String(leftTime) + "," + String(simulatedPulse));
+  String data = String("<" + String(leftTime) + "," + String(simulatedPulse) + ">");
   Serial.print(data);
 
   switch (mode) {
