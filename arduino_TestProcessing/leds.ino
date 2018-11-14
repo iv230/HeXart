@@ -2,7 +2,7 @@ void blinkOnRythm() {
   for (int i = 2; i < 10; i++) {
     digitalWrite(i, HIGH);
   }
-  delay(200);
+  delay(100);
   for (int i = 2; i < 10; i++) {
     digitalWrite(i, LOW);
   }
@@ -13,7 +13,7 @@ void oneOfTwo() {
     digitalWrite(i, HIGH);
     digitalWrite(i + 1, LOW);
   }
-  delay(200);
+  delay(100);
   for (int i = 2; i < 10; i += 2) {
     digitalWrite(i, LOW);
     digitalWrite(i + 1, HIGH);
@@ -26,13 +26,13 @@ void oneOfThree() {
     digitalWrite(i + 1, LOW);
     digitalWrite(i + 2, LOW);
   }
-  delay(200);
+  delay(100);
   for (int i = 2; i < 9; i += 3) {
     digitalWrite(i, LOW);
     digitalWrite(i + 1, HIGH);
     digitalWrite(i + 2, LOW);
   }
-  delay(200);
+  delay(100);
   for (int i = 2; i < 9; i += 3) {
     digitalWrite(i, LOW);
     digitalWrite(i + 1, LOW);
@@ -51,7 +51,7 @@ void chain(int current) {
 
 void unique(int choice){
   digitalWrite(choice, HIGH);
-  delay(200);
+  delay(100);
   digitalWrite(choice, LOW);
 }
 

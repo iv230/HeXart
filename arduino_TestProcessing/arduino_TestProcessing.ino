@@ -58,5 +58,5 @@ void loop() {
     case 5:
       unique(choice);
   }
-  delay(600);
+  delay(300);
 }
