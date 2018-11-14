@@ -122,6 +122,141 @@ Mod4/fast:
 	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/build
 .PHONY : Mod4/fast
 
+actions.obj: actions.c.obj
+
+.PHONY : actions.obj
+
+# target to build an object file
+actions.c.obj:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/actions.c.obj
+.PHONY : actions.c.obj
+
+actions.i: actions.c.i
+
+.PHONY : actions.i
+
+# target to preprocess a source file
+actions.c.i:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/actions.c.i
+.PHONY : actions.c.i
+
+actions.s: actions.c.s
+
+.PHONY : actions.s
+
+# target to generate assembly for a file
+actions.c.s:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/actions.c.s
+.PHONY : actions.c.s
+
+crescentSort.obj: crescentSort.c.obj
+
+.PHONY : crescentSort.obj
+
+# target to build an object file
+crescentSort.c.obj:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/crescentSort.c.obj
+.PHONY : crescentSort.c.obj
+
+crescentSort.i: crescentSort.c.i
+
+.PHONY : crescentSort.i
+
+# target to preprocess a source file
+crescentSort.c.i:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/crescentSort.c.i
+.PHONY : crescentSort.c.i
+
+crescentSort.s: crescentSort.c.s
+
+.PHONY : crescentSort.s
+
+# target to generate assembly for a file
+crescentSort.c.s:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/crescentSort.c.s
+.PHONY : crescentSort.c.s
+
+data.obj: data.c.obj
+
+.PHONY : data.obj
+
+# target to build an object file
+data.c.obj:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/data.c.obj
+.PHONY : data.c.obj
+
+data.i: data.c.i
+
+.PHONY : data.i
+
+# target to preprocess a source file
+data.c.i:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/data.c.i
+.PHONY : data.c.i
+
+data.s: data.c.s
+
+.PHONY : data.s
+
+# target to generate assembly for a file
+data.c.s:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/data.c.s
+.PHONY : data.c.s
+
+decrescentSort.obj: decrescentSort.c.obj
+
+.PHONY : decrescentSort.obj
+
+# target to build an object file
+decrescentSort.c.obj:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/decrescentSort.c.obj
+.PHONY : decrescentSort.c.obj
+
+decrescentSort.i: decrescentSort.c.i
+
+.PHONY : decrescentSort.i
+
+# target to preprocess a source file
+decrescentSort.c.i:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/decrescentSort.c.i
+.PHONY : decrescentSort.c.i
+
+decrescentSort.s: decrescentSort.c.s
+
+.PHONY : decrescentSort.s
+
+# target to generate assembly for a file
+decrescentSort.c.s:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/decrescentSort.c.s
+.PHONY : decrescentSort.c.s
+
+displayCSVorder.obj: displayCSVorder.c.obj
+
+.PHONY : displayCSVorder.obj
+
+# target to build an object file
+displayCSVorder.c.obj:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/displayCSVorder.c.obj
+.PHONY : displayCSVorder.c.obj
+
+displayCSVorder.i: displayCSVorder.c.i
+
+.PHONY : displayCSVorder.i
+
+# target to preprocess a source file
+displayCSVorder.c.i:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/displayCSVorder.c.i
+.PHONY : displayCSVorder.c.i
+
+displayCSVorder.s: displayCSVorder.c.s
+
+.PHONY : displayCSVorder.s
+
+# target to generate assembly for a file
+displayCSVorder.c.s:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/displayCSVorder.c.s
+.PHONY : displayCSVorder.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,6 +284,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/main.c.s
 .PHONY : main.c.s
 
+menu.obj: menu.c.obj
+
+.PHONY : menu.obj
+
+# target to build an object file
+menu.c.obj:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/menu.c.obj
+.PHONY : menu.c.obj
+
+menu.i: menu.c.i
+
+.PHONY : menu.i
+
+# target to preprocess a source file
+menu.c.i:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/menu.c.i
+.PHONY : menu.c.i
+
+menu.s: menu.c.s
+
+.PHONY : menu.s
+
+# target to generate assembly for a file
+menu.c.s:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/menu.c.s
+.PHONY : menu.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +320,27 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Mod4
 	@echo ... edit_cache
+	@echo ... actions.obj
+	@echo ... actions.i
+	@echo ... actions.s
+	@echo ... crescentSort.obj
+	@echo ... crescentSort.i
+	@echo ... crescentSort.s
+	@echo ... data.obj
+	@echo ... data.i
+	@echo ... data.s
+	@echo ... decrescentSort.obj
+	@echo ... decrescentSort.i
+	@echo ... decrescentSort.s
+	@echo ... displayCSVorder.obj
+	@echo ... displayCSVorder.i
+	@echo ... displayCSVorder.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... menu.obj
+	@echo ... menu.i
+	@echo ... menu.s
 .PHONY : help
 
 

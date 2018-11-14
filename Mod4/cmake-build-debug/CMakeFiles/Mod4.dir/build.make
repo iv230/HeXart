@@ -69,19 +69,109 @@ CMakeFiles/Mod4.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/main.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\GitHub2\GitHub\HeXart\Mod4\main.c -o CMakeFiles\Mod4.dir\main.c.s
 
+CMakeFiles/Mod4.dir/menu.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/menu.c.obj: ../menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Mod4.dir/menu.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\menu.c.obj   -c D:\GitHub\GitHub2\GitHub\HeXart\Mod4\menu.c
+
+CMakeFiles/Mod4.dir/menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/menu.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\GitHub2\GitHub\HeXart\Mod4\menu.c > CMakeFiles\Mod4.dir\menu.c.i
+
+CMakeFiles/Mod4.dir/menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/menu.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\GitHub2\GitHub\HeXart\Mod4\menu.c -o CMakeFiles\Mod4.dir\menu.c.s
+
+CMakeFiles/Mod4.dir/actions.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/actions.c.obj: ../actions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Mod4.dir/actions.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\actions.c.obj   -c D:\GitHub\GitHub2\GitHub\HeXart\Mod4\actions.c
+
+CMakeFiles/Mod4.dir/actions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/actions.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\GitHub2\GitHub\HeXart\Mod4\actions.c > CMakeFiles\Mod4.dir\actions.c.i
+
+CMakeFiles/Mod4.dir/actions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/actions.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\GitHub2\GitHub\HeXart\Mod4\actions.c -o CMakeFiles\Mod4.dir\actions.c.s
+
+CMakeFiles/Mod4.dir/data.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/data.c.obj: ../data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Mod4.dir/data.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\data.c.obj   -c D:\GitHub\GitHub2\GitHub\HeXart\Mod4\data.c
+
+CMakeFiles/Mod4.dir/data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/data.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\GitHub2\GitHub\HeXart\Mod4\data.c > CMakeFiles\Mod4.dir\data.c.i
+
+CMakeFiles/Mod4.dir/data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/data.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\GitHub2\GitHub\HeXart\Mod4\data.c -o CMakeFiles\Mod4.dir\data.c.s
+
+CMakeFiles/Mod4.dir/displayCSVorder.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/displayCSVorder.c.obj: ../displayCSVorder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Mod4.dir/displayCSVorder.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\displayCSVorder.c.obj   -c D:\GitHub\GitHub2\GitHub\HeXart\Mod4\displayCSVorder.c
+
+CMakeFiles/Mod4.dir/displayCSVorder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/displayCSVorder.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\GitHub2\GitHub\HeXart\Mod4\displayCSVorder.c > CMakeFiles\Mod4.dir\displayCSVorder.c.i
+
+CMakeFiles/Mod4.dir/displayCSVorder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/displayCSVorder.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\GitHub2\GitHub\HeXart\Mod4\displayCSVorder.c -o CMakeFiles\Mod4.dir\displayCSVorder.c.s
+
+CMakeFiles/Mod4.dir/crescentSort.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/crescentSort.c.obj: ../crescentSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Mod4.dir/crescentSort.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\crescentSort.c.obj   -c D:\GitHub\GitHub2\GitHub\HeXart\Mod4\crescentSort.c
+
+CMakeFiles/Mod4.dir/crescentSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/crescentSort.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\GitHub2\GitHub\HeXart\Mod4\crescentSort.c > CMakeFiles\Mod4.dir\crescentSort.c.i
+
+CMakeFiles/Mod4.dir/crescentSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/crescentSort.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\GitHub2\GitHub\HeXart\Mod4\crescentSort.c -o CMakeFiles\Mod4.dir\crescentSort.c.s
+
+CMakeFiles/Mod4.dir/decrescentSort.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/decrescentSort.c.obj: ../decrescentSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Mod4.dir/decrescentSort.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\decrescentSort.c.obj   -c D:\GitHub\GitHub2\GitHub\HeXart\Mod4\decrescentSort.c
+
+CMakeFiles/Mod4.dir/decrescentSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/decrescentSort.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\GitHub2\GitHub\HeXart\Mod4\decrescentSort.c > CMakeFiles\Mod4.dir\decrescentSort.c.i
+
+CMakeFiles/Mod4.dir/decrescentSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/decrescentSort.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\GitHub2\GitHub\HeXart\Mod4\decrescentSort.c -o CMakeFiles\Mod4.dir\decrescentSort.c.s
+
 # Object files for target Mod4
 Mod4_OBJECTS = \
-"CMakeFiles/Mod4.dir/main.c.obj"
+"CMakeFiles/Mod4.dir/main.c.obj" \
+"CMakeFiles/Mod4.dir/menu.c.obj" \
+"CMakeFiles/Mod4.dir/actions.c.obj" \
+"CMakeFiles/Mod4.dir/data.c.obj" \
+"CMakeFiles/Mod4.dir/displayCSVorder.c.obj" \
+"CMakeFiles/Mod4.dir/crescentSort.c.obj" \
+"CMakeFiles/Mod4.dir/decrescentSort.c.obj"
 
 # External object files for target Mod4
 Mod4_EXTERNAL_OBJECTS =
 
 Mod4.exe: CMakeFiles/Mod4.dir/main.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/menu.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/actions.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/data.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/displayCSVorder.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/crescentSort.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/decrescentSort.c.obj
 Mod4.exe: CMakeFiles/Mod4.dir/build.make
 Mod4.exe: CMakeFiles/Mod4.dir/linklibs.rsp
 Mod4.exe: CMakeFiles/Mod4.dir/objects1.rsp
 Mod4.exe: CMakeFiles/Mod4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Mod4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Mod4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Mod4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

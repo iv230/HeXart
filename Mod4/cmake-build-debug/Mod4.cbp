@@ -74,7 +74,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.h">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/crescentSort.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/data.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/data.h">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/decrescentSort.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/displayCSVorder.c">
+			<Option target="Mod4"/>
+		</Unit>
 		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/main.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu.h">
 			<Option target="Mod4"/>
 		</Unit>
 		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/CMakeLists.txt">
