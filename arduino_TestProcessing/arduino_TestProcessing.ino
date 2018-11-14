@@ -17,6 +17,8 @@ void setup() {
     delay(100);
     digitalWrite(i, LOW);
   }
+
+  pinMode(0, INPUT);
   
   /*Serial.println("Entrez le mode :");
   while (Serial.available() == 0) {}
@@ -35,8 +37,9 @@ void loop() {
   int simulatedPulse = simulatePulseInputLoop(pulseAverage);
   unsigned long leftTime = millis();
 
-  String data = String("<" + String(leftTime) + "," + String(simulatedPulse) + ">");
-  Serial.print(data);
+  //String data = String(String(leftTime) + "," + String(simulatedPulse) + "_");
+  //Serial.print(data);
+  Serial.println(analogRead(0));
 
   switch (mode) {
     case 1:
