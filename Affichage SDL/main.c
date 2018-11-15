@@ -24,6 +24,8 @@ int main(int argc, char * argv[])
         SDL_WM_SetCaption("HeXart measurements", NULL);
         SDL_WM_SetIcon(IMG_Load("data/img/icon.png"), NULL);
 
+        SDL_ShowCursor(SDL_DISABLE);
+
         displayMenu(&screen);
     }
 

@@ -82,21 +82,51 @@ CMakeFiles/Affichage_SDL.dir/menu/menu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Affichage_SDL.dir/menu/menu.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\menu\menu.c" -o CMakeFiles\Affichage_SDL.dir\menu\menu.c.s
 
+CMakeFiles/Affichage_SDL.dir/loading/loading.c.obj: CMakeFiles/Affichage_SDL.dir/flags.make
+CMakeFiles/Affichage_SDL.dir/loading/loading.c.obj: ../loading/loading.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Affichage_SDL.dir/loading/loading.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Affichage_SDL.dir\loading\loading.c.obj   -c "C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\loading\loading.c"
+
+CMakeFiles/Affichage_SDL.dir/loading/loading.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Affichage_SDL.dir/loading/loading.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\loading\loading.c" > CMakeFiles\Affichage_SDL.dir\loading\loading.c.i
+
+CMakeFiles/Affichage_SDL.dir/loading/loading.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Affichage_SDL.dir/loading/loading.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\loading\loading.c" -o CMakeFiles\Affichage_SDL.dir\loading\loading.c.s
+
+CMakeFiles/Affichage_SDL.dir/generator/generator.c.obj: CMakeFiles/Affichage_SDL.dir/flags.make
+CMakeFiles/Affichage_SDL.dir/generator/generator.c.obj: ../generator/generator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Affichage_SDL.dir/generator/generator.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Affichage_SDL.dir\generator\generator.c.obj   -c "C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\generator\generator.c"
+
+CMakeFiles/Affichage_SDL.dir/generator/generator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Affichage_SDL.dir/generator/generator.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\generator\generator.c" > CMakeFiles\Affichage_SDL.dir\generator\generator.c.i
+
+CMakeFiles/Affichage_SDL.dir/generator/generator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Affichage_SDL.dir/generator/generator.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\generator\generator.c" -o CMakeFiles\Affichage_SDL.dir\generator\generator.c.s
+
 # Object files for target Affichage_SDL
 Affichage_SDL_OBJECTS = \
 "CMakeFiles/Affichage_SDL.dir/main.c.obj" \
-"CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj"
+"CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj" \
+"CMakeFiles/Affichage_SDL.dir/loading/loading.c.obj" \
+"CMakeFiles/Affichage_SDL.dir/generator/generator.c.obj"
 
 # External object files for target Affichage_SDL
 Affichage_SDL_EXTERNAL_OBJECTS =
 
 Affichage_SDL.exe: CMakeFiles/Affichage_SDL.dir/main.c.obj
 Affichage_SDL.exe: CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj
+Affichage_SDL.exe: CMakeFiles/Affichage_SDL.dir/loading/loading.c.obj
+Affichage_SDL.exe: CMakeFiles/Affichage_SDL.dir/generator/generator.c.obj
 Affichage_SDL.exe: CMakeFiles/Affichage_SDL.dir/build.make
 Affichage_SDL.exe: CMakeFiles/Affichage_SDL.dir/linklibs.rsp
 Affichage_SDL.exe: CMakeFiles/Affichage_SDL.dir/objects1.rsp
 Affichage_SDL.exe: CMakeFiles/Affichage_SDL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Affichage_SDL.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Affichage SDL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Affichage_SDL.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Affichage_SDL.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

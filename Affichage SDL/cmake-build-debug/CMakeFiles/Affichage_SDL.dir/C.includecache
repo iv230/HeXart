@@ -6,13 +6,25 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/generator/generator.h
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/loading/loading.h
+
 C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.c
 stdbool.h
+-
+string.h
 -
 SDL/SDL.h
 -
 SDL/SDL_image.h
 -
+math.h
+-
+../generator/generator.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/generator/generator.h
+../loading/loading.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/loading/loading.h
 menu.h
 C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h
 
