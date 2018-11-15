@@ -55,3 +55,10 @@ void unique(int choice){
   digitalWrite(choice, LOW);
 }
 
+void randFonc(){
+ int led;
+ led = random(2,9);
+ digitalWrite(led, HIGH);
+ delay(200);
+ digitalWrite(led, LOW);
+}
