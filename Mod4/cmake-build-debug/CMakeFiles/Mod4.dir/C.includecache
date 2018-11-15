@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.c
-actions.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.h
-
 D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.h
 
 D:/GitHub/GitHub2/GitHub/HeXart/Mod4/crescentSort.c
@@ -19,32 +15,4 @@ stdlib.h
 -
 actions.h
 D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/decrescentSort.c
-stdio.h
--
-stdlib.h
--
-actions.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/displayCSVorder.c
-stdio.h
--
-stdlib.h
--
-actions.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/main.c
-stdio.h
--
-stdlib.h
--
-menu.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu.h
-actions.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu.h
 

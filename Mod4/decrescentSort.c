@@ -3,23 +3,25 @@
 #include "actions.h"
 
 void timeDecrescentSort() {
-    FILE *fichier = NULL;
-    char chaine[TAILLE_MAX] = "";
-    fichier = fopen("D:\\GitHub\\GitHub2\\GitHub\\HeXart\\Mod4\\Battements.csv", "r+");
+    FILE *file = NULL;
+    char *lines[TAILLE_MAX];
+    file = fopen("D:\\GitHub\\GitHub2\\GitHub\\HeXart\\Mod4\\Battements.csv", "r+");
 
-    if (fichier != NULL) //test
+    if (file != NULL) //test
     {
-        //while (fgets(chaine, TAILLE_MAX, fichier) != NULL) {
-          //  printf("%s", chaine);
-       // }
+        int y=0;
+        while (fgets(lines[y], TAILLE_MAX, file) != NULL) {
+            y++;
+       }
+       printf("%d", y);
 
-          for (int i = 1; i <= TAILLE_MAX; i++) {
+          for (int i = 1; i <= y; i++) {
 
-              printf("%s", chaine[TAILLE_MAX - i]);
-              printf(" ");
+              printf("%s", lines[y- i]);
+              printf("i =%d",i);
           }
 
-        fclose(fichier);
+        fclose(file);
     } else {
         printf("Impossible d'ouvrir le fichier ");
     }

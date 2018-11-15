@@ -3,17 +3,17 @@
 #include "actions.h"
 
 void displayCsvOrder() {
-    FILE *fichier = NULL;
-    char chaine[TAILLE_MAX] = "";
-    fichier = fopen("D:\\GitHub\\GitHub2\\GitHub\\HeXart\\Mod4\\Battements.csv", "r+");
+    FILE *file = NULL;
+    char line[TAILLE_MAX] = "";
+    file = fopen("D:\\GitHub\\GitHub2\\GitHub\\HeXart\\Mod4\\Battements.csv", "r+");
 
-    if (fichier != NULL) //test
+    if (file != NULL) //test
     {
-        while (fgets(chaine, TAILLE_MAX, fichier) != NULL) {
-            printf("%s", chaine);
+        while (fgets(line, TAILLE_MAX, file) != NULL) {
+            printf("%s", line);
         }
 
-        fclose(fichier);
+        fclose(file);
     } else {
         printf("Impossible d'ouvrir le fichier ");
     }

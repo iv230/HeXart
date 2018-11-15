@@ -5,8 +5,9 @@
 
 int main() {
   //menu();
-  displayCsvOrder();
+  //displayCsvOrder();
   //timeCrescentSort();
+  pulseCresentSort();
   //timeDecrescentSort();
 
   return 0;
