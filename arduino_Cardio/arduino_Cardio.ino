@@ -58,7 +58,7 @@ void loop() {
       unique(choice);
       break;
     case 6:
-      randFonc();
+      randFunc();
   }
   delay(600);
 }
