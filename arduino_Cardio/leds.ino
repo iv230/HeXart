@@ -1,9 +1,13 @@
+// fonction éclairage en rythme avec le pouls 
 void blinkOnRythm()
 {
   int state = HIGH;
-
+  
+  //faire deux fois boucle
   for (int i = 0; i < 2; i++)
   {
+    // j = 2 car première LED branchée à pin 2
+    // j<10 car dernière LED branchée sur pin 9 
     for (int j = 2; j < 10; j++)
     {
       digitalWrite(j, state);
@@ -22,6 +26,7 @@ void blinkOnRythm()
     }*/
 }
 
+// fonction éclairage une sur deux
 void oneOfTwo()
 {
   bool first = true;
@@ -48,7 +53,7 @@ void oneOfTwo()
     } */
 }
 
-//1 LED on 2 is turned on alternativly
+//1 LED sur 2 allumée
 void oneOfThree() {
 /*
   for(int i = 0; i < 3; i++)
@@ -79,24 +84,27 @@ void oneOfThree() {
   }
 }
 
-//1 LED is parcouring all the heart
+//1 LED parcourt tout le coeur
 void chain(int current) {
+  // si LED allumée est sur pin 2, LED pin 9 éteinte
   if (current == 2) {
     digitalWrite(9, LOW);
-  } else {
+  } 
+  //LED précédente éteinte quand LED suivante allumée
+  else {
     digitalWrite(current - 1, LOW);
   }
   digitalWrite(current, HIGH);
 }
 
-//only 1 LED choosen by the user is blinking
+//une LED choisie par l'utilisateur
 void unique(int choice) {
   digitalWrite(choice, HIGH);
   delay(LED_BLINK_TIME);
   digitalWrite(choice, LOW);
 }
 
-//random LED is blinking (changes at each pulse)
+//1 LED random(change à chaque battement)
 void randFunc() {
   int led = random(2, 9);
   digitalWrite(led, HIGH);
@@ -104,8 +112,9 @@ void randFunc() {
   digitalWrite(led, LOW);
 }
 
-//LEDs are blinking symmetrically
+//LEDs allumées symétriquement
 void symmetry() {
+  //tant que les LEDS autre que LED 2 ou 6 allumées faire :
   while (digitalRead(3) == HIGH || digitalRead(4) == HIGH || digitalRead(5) == HIGH || digitalRead(7) == HIGH || digitalRead(8) == HIGH || digitalRead(9) == HIGH) {
     digitalWrite(2, HIGH);
     delay(LED_BLINK_TIME);
