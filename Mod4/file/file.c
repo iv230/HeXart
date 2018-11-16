@@ -16,13 +16,13 @@ int readFile(char * path, DataFlow * flow)
 
     int index = 0;
 
-    fscanf(file, "%s %s", line, line);
+    fscanf(file, "%s", line);
 
     while(!feof(file))
     {
         Data data = {0};
 
-        fscanf(file, "%d,%d", &(data.timestamp), &(data.pulse));
+        fscanf(file, "%d;%d", &(data.timestamp), &(data.pulse));
 
         pullDataFlow(flow, data);
     }

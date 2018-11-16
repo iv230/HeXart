@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\GitHub\GitHub2\GitHub\HeXart\Mod4
+CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GitHub\GitHub2\GitHub\HeXart\Mod4\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,33 +121,6 @@ Mod4: cmake_check_build_system
 Mod4/fast:
 	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/build
 .PHONY : Mod4/fast
-
-crescentSort.obj: crescentSort.c.obj
-
-.PHONY : crescentSort.obj
-
-# target to build an object file
-crescentSort.c.obj:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/crescentSort.c.obj
-.PHONY : crescentSort.c.obj
-
-crescentSort.i: crescentSort.c.i
-
-.PHONY : crescentSort.i
-
-# target to preprocess a source file
-crescentSort.c.i:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/crescentSort.c.i
-.PHONY : crescentSort.c.i
-
-crescentSort.s: crescentSort.c.s
-
-.PHONY : crescentSort.s
-
-# target to generate assembly for a file
-crescentSort.c.s:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/crescentSort.c.s
-.PHONY : crescentSort.c.s
 
 dataManager/dataManager.obj: dataManager/dataManager.c.obj
 
@@ -202,60 +175,6 @@ dataPrinter/dataPrinter.s: dataPrinter/dataPrinter.c.s
 dataPrinter/dataPrinter.c.s:
 	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.s
 .PHONY : dataPrinter/dataPrinter.c.s
-
-decrescentSort.obj: decrescentSort.c.obj
-
-.PHONY : decrescentSort.obj
-
-# target to build an object file
-decrescentSort.c.obj:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/decrescentSort.c.obj
-.PHONY : decrescentSort.c.obj
-
-decrescentSort.i: decrescentSort.c.i
-
-.PHONY : decrescentSort.i
-
-# target to preprocess a source file
-decrescentSort.c.i:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/decrescentSort.c.i
-.PHONY : decrescentSort.c.i
-
-decrescentSort.s: decrescentSort.c.s
-
-.PHONY : decrescentSort.s
-
-# target to generate assembly for a file
-decrescentSort.c.s:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/decrescentSort.c.s
-.PHONY : decrescentSort.c.s
-
-displayCSVorder.obj: displayCSVorder.c.obj
-
-.PHONY : displayCSVorder.obj
-
-# target to build an object file
-displayCSVorder.c.obj:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/displayCSVorder.c.obj
-.PHONY : displayCSVorder.c.obj
-
-displayCSVorder.i: displayCSVorder.c.i
-
-.PHONY : displayCSVorder.i
-
-# target to preprocess a source file
-displayCSVorder.c.i:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/displayCSVorder.c.i
-.PHONY : displayCSVorder.c.i
-
-displayCSVorder.s: displayCSVorder.c.s
-
-.PHONY : displayCSVorder.s
-
-# target to generate assembly for a file
-displayCSVorder.c.s:
-	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/displayCSVorder.c.s
-.PHONY : displayCSVorder.c.s
 
 features/sort.obj: features/sort.c.obj
 
@@ -374,21 +293,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Mod4
 	@echo ... edit_cache
-	@echo ... crescentSort.obj
-	@echo ... crescentSort.i
-	@echo ... crescentSort.s
 	@echo ... dataManager/dataManager.obj
 	@echo ... dataManager/dataManager.i
 	@echo ... dataManager/dataManager.s
 	@echo ... dataPrinter/dataPrinter.obj
 	@echo ... dataPrinter/dataPrinter.i
 	@echo ... dataPrinter/dataPrinter.s
-	@echo ... decrescentSort.obj
-	@echo ... decrescentSort.i
-	@echo ... decrescentSort.s
-	@echo ... displayCSVorder.obj
-	@echo ... displayCSVorder.i
-	@echo ... displayCSVorder.s
 	@echo ... features/sort.obj
 	@echo ... features/sort.i
 	@echo ... features/sort.s

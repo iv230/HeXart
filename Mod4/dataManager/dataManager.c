@@ -66,7 +66,6 @@ void unpullAll(DataFlow * flow, Data * data, int order, int orderType)
     while(flow->first != NULL)
     {
         size++;
-        data = realloc(data, size * sizeof(Data));
 
         if(order == NONE)
             data[size - 1] = unpullDataLine(flow);
