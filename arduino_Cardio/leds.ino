@@ -109,11 +109,11 @@ void symmetry() {
   while (digitalRead(3) == HIGH || digitalRead(4) == HIGH || digitalRead(5) == HIGH || digitalRead(7) == HIGH || digitalRead(8) == HIGH || digitalRead(9) == HIGH) {
     digitalWrite(2, HIGH);
     delay(200);
-    digitalWrite(2, LOW)
-    for (int i = 3, int j = 9; i<6, j>6; i++, j--) {
+    digitalWrite(2, LOW);
+    for (int i = 3, j = 9; i<6, j>6; i++, j--) {
       digitalWrite(i, HIGH);
       digitalWrite(j, HIGH);
-      delay(200)
+      delay(200);
       digitalWrite(i, LOW);
       digitalWrite(j, LOW);
     }
