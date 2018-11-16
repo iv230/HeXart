@@ -6,5 +6,7 @@ void oneOfTwo();
 void oneOfThree();
 void chain(int current);
 void unique(int choice);
+void randFunc();
+void AlixisFunc();
 
 #endif
