@@ -230,6 +230,33 @@ menu/menu.c.s:
 	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/menu/menu.c.s
 .PHONY : menu/menu.c.s
 
+utils/utils.obj: utils/utils.c.obj
+
+.PHONY : utils/utils.obj
+
+# target to build an object file
+utils/utils.c.obj:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/utils/utils.c.obj
+.PHONY : utils/utils.c.obj
+
+utils/utils.i: utils/utils.c.i
+
+.PHONY : utils/utils.i
+
+# target to preprocess a source file
+utils/utils.c.i:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/utils/utils.c.i
+.PHONY : utils/utils.c.i
+
+utils/utils.s: utils/utils.c.s
+
+.PHONY : utils/utils.s
+
+# target to generate assembly for a file
+utils/utils.c.s:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/utils/utils.c.s
+.PHONY : utils/utils.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +278,9 @@ help:
 	@echo ... menu/menu.obj
 	@echo ... menu/menu.i
 	@echo ... menu/menu.s
+	@echo ... utils/utils.obj
+	@echo ... utils/utils.i
+	@echo ... utils/utils.s
 .PHONY : help
 
 

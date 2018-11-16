@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void generateParam(int mode)
+void generateParam(int mode, int choice)
 {
     char * path = "C:\\Users\\Alex\\Documents\\Travaux\\C\\HeXart\\HeXart\\arduino_Cardio\\param.h";
 
@@ -10,9 +10,9 @@ void generateParam(int mode)
                   "#define ARDUINO_CARDIO_PARAM_H\n"
                   "\n"
                   "#define MODE %d\n"
-                  "#define CHOICE 1\n"
+                  "#define CHOICE %d\n"
                   "\n"
-                  "#endif", mode);
+                  "#endif", mode, choice);
 
     printf("File has been generated with mode %d", mode);
 

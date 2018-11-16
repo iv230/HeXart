@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj"
   "CMakeFiles/Affichage_SDL.dir/loading/loading.c.obj"
   "CMakeFiles/Affichage_SDL.dir/generator/generator.c.obj"
+  "CMakeFiles/Affichage_SDL.dir/utils/utils.c.obj"
   "Affichage_SDL.pdb"
   "Affichage_SDL.exe"
   "Affichage_SDL.exe.manifest"

@@ -13,4 +13,8 @@ CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj: ../generator/generator.h
 CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj: ../loading/loading.h
 CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj: ../menu/menu.c
 CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj: ../menu/menu.h
+CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj: ../utils/utils.h
+
+CMakeFiles/Affichage_SDL.dir/utils/utils.c.obj: ../utils/utils.c
+CMakeFiles/Affichage_SDL.dir/utils/utils.c.obj: ../utils/utils.h
 

@@ -95,6 +95,12 @@
 		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h">
 			<Option target="Affichage_SDL"/>
 		</Unit>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/utils/utils.c">
+			<Option target="Affichage_SDL"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/utils/utils.h">
+			<Option target="Affichage_SDL"/>
+		</Unit>
 		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

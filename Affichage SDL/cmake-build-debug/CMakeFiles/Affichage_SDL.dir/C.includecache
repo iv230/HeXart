@@ -19,8 +19,8 @@ SDL/SDL.h
 -
 SDL/SDL_image.h
 -
-math.h
--
+../utils/utils.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/utils/utils.h
 ../generator/generator.h
 C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/generator/generator.h
 ../loading/loading.h
@@ -29,4 +29,6 @@ menu.h
 C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h
 
 C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/utils/utils.h
 

@@ -1,7 +1,7 @@
 #ifndef ARDUINO_CARDIO_PARAM_H
 #define ARDUINO_CARDIO_PARAM_H
 
-#define MODE 0
-#define CHOICE 1
+#define MODE 5
+#define CHOICE 6
 
 #endif
