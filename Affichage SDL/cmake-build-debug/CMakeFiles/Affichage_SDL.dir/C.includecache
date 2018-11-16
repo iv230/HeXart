@@ -6,14 +6,16 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.c
-stdbool.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/main.c
+stdio.h
+-
+windows.h
 -
 SDL/SDL.h
 -
 SDL/SDL_image.h
 -
-menu.h
+menu/menu.h
 C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h
 
 C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h

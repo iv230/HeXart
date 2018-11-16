@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/features/csv.c
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/features/features.h
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/main.c
 stdio.h
 -
 stdlib.h
 -
-features.h
-C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/features/features.h
-
+string.h
+-
+features/features.h
 C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/features/features.h
 

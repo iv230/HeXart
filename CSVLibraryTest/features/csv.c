@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "features.h"
 
@@ -16,16 +17,14 @@ void freeCSVFile(CSVFile * csv)
 
     freeCSVHeader(&(csv->columns));
 
-    for(int i = 0; i < csv->size; i++)
-    {
-        free(csv->lines[i].values);
-    }
+    free(csv->lines);
 }
 
-void initCSVHeader(CSVHeader * header, int size, char ** columnsNames)
+void initCSVHeader(CSVHeader * header, int size, char ** columnsNames, char ** formats)
 {
     header->size = size;
     header->columnsNames = columnsNames;
+    header->formats = formats;
 }
 
 void freeCSVHeader(CSVHeader * header)
@@ -35,12 +34,7 @@ void freeCSVHeader(CSVHeader * header)
 
 void addCSVLine(CSVFile * csv, void ** values)
 {
-    CSVLine line = {0};
-
-    line.size = csv->columns.size;
-    line.values = values;
-
     csv->size++;
     csv->lines = realloc(csv->lines, csv->size * sizeof(CSVLine));
-    csv->lines[csv->size - 1] = line;
+    csv->lines[csv->size - 1] = values;
 }

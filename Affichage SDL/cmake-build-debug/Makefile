@@ -122,6 +122,60 @@ Affichage_SDL/fast:
 	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/build
 .PHONY : Affichage_SDL/fast
 
+generator/generator.obj: generator/generator.c.obj
+
+.PHONY : generator/generator.obj
+
+# target to build an object file
+generator/generator.c.obj:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/generator/generator.c.obj
+.PHONY : generator/generator.c.obj
+
+generator/generator.i: generator/generator.c.i
+
+.PHONY : generator/generator.i
+
+# target to preprocess a source file
+generator/generator.c.i:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/generator/generator.c.i
+.PHONY : generator/generator.c.i
+
+generator/generator.s: generator/generator.c.s
+
+.PHONY : generator/generator.s
+
+# target to generate assembly for a file
+generator/generator.c.s:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/generator/generator.c.s
+.PHONY : generator/generator.c.s
+
+loading/loading.obj: loading/loading.c.obj
+
+.PHONY : loading/loading.obj
+
+# target to build an object file
+loading/loading.c.obj:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/loading/loading.c.obj
+.PHONY : loading/loading.c.obj
+
+loading/loading.i: loading/loading.c.i
+
+.PHONY : loading/loading.i
+
+# target to preprocess a source file
+loading/loading.c.i:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/loading/loading.c.i
+.PHONY : loading/loading.c.i
+
+loading/loading.s: loading/loading.c.s
+
+.PHONY : loading/loading.s
+
+# target to generate assembly for a file
+loading/loading.c.s:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/loading/loading.c.s
+.PHONY : loading/loading.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -176,6 +230,33 @@ menu/menu.c.s:
 	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/menu/menu.c.s
 .PHONY : menu/menu.c.s
 
+utils/utils.obj: utils/utils.c.obj
+
+.PHONY : utils/utils.obj
+
+# target to build an object file
+utils/utils.c.obj:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/utils/utils.c.obj
+.PHONY : utils/utils.c.obj
+
+utils/utils.i: utils/utils.c.i
+
+.PHONY : utils/utils.i
+
+# target to preprocess a source file
+utils/utils.c.i:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/utils/utils.c.i
+.PHONY : utils/utils.c.i
+
+utils/utils.s: utils/utils.c.s
+
+.PHONY : utils/utils.s
+
+# target to generate assembly for a file
+utils/utils.c.s:
+	$(MAKE) -f CMakeFiles\Affichage_SDL.dir\build.make CMakeFiles/Affichage_SDL.dir/utils/utils.c.s
+.PHONY : utils/utils.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +266,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Affichage_SDL
 	@echo ... edit_cache
+	@echo ... generator/generator.obj
+	@echo ... generator/generator.i
+	@echo ... generator/generator.s
+	@echo ... loading/loading.obj
+	@echo ... loading/loading.i
+	@echo ... loading/loading.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... menu/menu.obj
 	@echo ... menu/menu.i
 	@echo ... menu/menu.s
+	@echo ... utils/utils.obj
+	@echo ... utils/utils.i
+	@echo ... utils/utils.s
 .PHONY : help
 
 
