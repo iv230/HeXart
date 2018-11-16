@@ -14,18 +14,20 @@ int main(int argc, char * argv[])
         fprintf(stderr, "Error while initialising the SDL library: %s\n", SDL_GetError());
         exit(EXIT_FAILURE);
     }
-    else
-    {
-        const SDL_VideoInfo * videoInfo = SDL_GetVideoInfo();
 
-        SDL_Surface * screen = NULL;
-        screen = SDL_SetVideoMode(videoInfo->current_w, videoInfo->current_h, 32, SDL_HWSURFACE | SDL_DOUBLEBUF | SDL_FULLSCREEN);
+    const SDL_VideoInfo * videoInfo = SDL_GetVideoInfo();
 
-        SDL_WM_SetCaption("HeXart measurements", NULL);
-        SDL_WM_SetIcon(IMG_Load("data/img/icon.png"), NULL);
+    SDL_Surface * screen = NULL;
+    screen = SDL_SetVideoMode(videoInfo->current_w, videoInfo->current_h, 32, SDL_HWSURFACE | SDL_DOUBLEBUF | SDL_FULLSCREEN);
 
-        displayMenu(&screen);
-    }
+    SDL_WM_SetCaption("HeXart measurements", NULL);
+    SDL_WM_SetIcon(IMG_Load("data/img/icon.png"), NULL);
+
+    SDL_ShowCursor(SDL_DISABLE);
+
+    displayMenu(&screen);
+
+    SDL_Quit();
 
     return 0;
 }

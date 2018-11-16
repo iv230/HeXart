@@ -16,6 +16,8 @@ CMakeFiles/Mod4.dir/decrescentSort.c.obj: ../decrescentSort.c
 CMakeFiles/Mod4.dir/displayCSVorder.c.obj: ../actions.h
 CMakeFiles/Mod4.dir/displayCSVorder.c.obj: ../displayCSVorder.c
 
+CMakeFiles/Mod4.dir/file.c.obj: ../file.c
+
 CMakeFiles/Mod4.dir/main.c.obj: ../actions.h
 CMakeFiles/Mod4.dir/main.c.obj: ../main.c
 CMakeFiles/Mod4.dir/main.c.obj: ../menu.h

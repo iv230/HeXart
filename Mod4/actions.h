@@ -26,4 +26,21 @@ typedef struct data {
     int pulse;
 } Data;
 
+//création de la file
+typedef struct DataLine DataLine;
+struct DataLine
+{
+    int time;
+    int pulse;
+    DataLine *next;
+};
+
+typedef struct
+{
+    DataLine *first;
+}DataFlow;
+
+void pullDataFlow(DataFlow * flow, DataLine * data);
+void pass (DataFlow * flow);
+
 #endif //MOD4_ACTIONS_H

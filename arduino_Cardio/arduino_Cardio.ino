@@ -28,6 +28,7 @@ void setup() {
     while (Serial.available() == 0) {}
     choice = Serial.parseInt();
   }
+   
 }
 
 void loop() {

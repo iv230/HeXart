@@ -74,6 +74,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/generator/generator.c">
+			<Option target="Affichage_SDL"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/generator/generator.h">
+			<Option target="Affichage_SDL"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/loading/loading.c">
+			<Option target="Affichage_SDL"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/loading/loading.h">
+			<Option target="Affichage_SDL"/>
+		</Unit>
 		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/main.c">
 			<Option target="Affichage_SDL"/>
 		</Unit>
@@ -81,6 +93,12 @@
 			<Option target="Affichage_SDL"/>
 		</Unit>
 		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/menu/menu.h">
+			<Option target="Affichage_SDL"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/utils/utils.c">
+			<Option target="Affichage_SDL"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/utils/utils.h">
 			<Option target="Affichage_SDL"/>
 		</Unit>
 		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Affichage SDL/CMakeLists.txt">
