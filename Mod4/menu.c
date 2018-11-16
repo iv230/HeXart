@@ -28,7 +28,7 @@ void menu () {
                     int timePulse;
                     printf ("Que voulez vous trier ?\n");
                     printf ("le temps : 1\nle pouls : 2\n");
-                    scanf ("%d", timePulse);
+                    scanf ("%d", &timePulse);
                     printf("\n");
                 }
                 break;
