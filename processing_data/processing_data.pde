@@ -17,7 +17,7 @@ void setup() {
   udSerial = new Serial(this, Serial.list()[2], 9600);
   printArray(Serial.list());
   output = createWriter ("Battements.csv");
-  output.println("timestamp,pulse");
+  output.println("timestamp;pulse");
 
   size(1440, 900);
   smooth();
@@ -34,7 +34,7 @@ void draw() {
       if (!dataLines[0].contains("null"))
       {
         output.println(dataLines[0]);
-        String datas[] = data.split(",");
+        String datas[] = data.split(";");
 
         StringBuilder sb = new StringBuilder(datas[1]);
         sb.deleteCharAt(sb.length() - 1);
