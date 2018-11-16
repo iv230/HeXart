@@ -2,12 +2,12 @@
 void blinkOnRythm()
 {
   int state = HIGH;
-  
+
   //faire deux fois boucle
   for (int i = 0; i < 2; i++)
   {
     // j = 2 car première LED branchée à pin 2
-    // j<10 car dernière LED branchée sur pin 9 
+    // j<10 car dernière LED branchée sur pin 9
     for (int j = 2; j < 10; j++)
     {
       digitalWrite(j, state);
@@ -89,7 +89,7 @@ void chain(int current) {
   // si LED allumée est sur pin 2, LED pin 9 éteinte
   if (current == 2) {
     digitalWrite(9, LOW);
-  } 
+  }
   //LED précédente éteinte quand LED suivante allumée
   else {
     digitalWrite(current - 1, LOW);
