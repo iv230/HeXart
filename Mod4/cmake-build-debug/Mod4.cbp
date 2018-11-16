@@ -74,19 +74,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.c">
-			<Option target="Mod4"/>
-		</Unit>
-		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/actions.h">
-			<Option target="Mod4"/>
-		</Unit>
 		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/crescentSort.c">
 			<Option target="Mod4"/>
 		</Unit>
-		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/data.c">
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/dataManager/dataManager.c">
 			<Option target="Mod4"/>
 		</Unit>
-		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/data.h">
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/dataManager/dataManager.h">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/dataPrinter/dataPrinter.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/dataPrinter/dataPrinter.h">
 			<Option target="Mod4"/>
 		</Unit>
 		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/decrescentSort.c">
@@ -95,16 +95,28 @@
 		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/displayCSVorder.c">
 			<Option target="Mod4"/>
 		</Unit>
-		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/file.c">
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/errors.h">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/features/features.h">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/features/sort.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/file/file.c">
+			<Option target="Mod4"/>
+		</Unit>
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/file/file.h">
 			<Option target="Mod4"/>
 		</Unit>
 		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/main.c">
 			<Option target="Mod4"/>
 		</Unit>
-		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu.c">
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu/menu.c">
 			<Option target="Mod4"/>
 		</Unit>
-		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu.h">
+		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu/menu.h">
 			<Option target="Mod4"/>
 		</Unit>
 		<Unit filename="D:/GitHub/GitHub2/GitHub/HeXart/Mod4/CMakeLists.txt">

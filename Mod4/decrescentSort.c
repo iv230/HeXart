@@ -1,6 +1,6 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
-#include "actions.h"
+#include "features/features.h"
 
 void timeDecrescentSort() {
     FILE *file = NULL;
@@ -25,4 +25,4 @@ void timeDecrescentSort() {
     } else {
         printf("Impossible d'ouvrir le fichier ");
     }
-}
+}*/
