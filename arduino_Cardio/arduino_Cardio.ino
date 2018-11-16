@@ -59,6 +59,9 @@ void loop() {
       break;
     case 6:
       randFunc();
+      break;
+    case 7:
+      symmetry();
   }
   delay(600);
 }

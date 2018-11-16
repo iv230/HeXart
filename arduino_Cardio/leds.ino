@@ -1,3 +1,4 @@
+//LEDs are blinking together
 void blinkOnRythm() {
   for (int i = 2; i < 10; i++) {
     digitalWrite(i, HIGH);
@@ -8,6 +9,7 @@ void blinkOnRythm() {
   }
 }
 
+//1 LED is on and 1 is off
 void oneOfTwo() {
   for (int i = 2; i < 10; i += 2) {
     digitalWrite(i, HIGH);
@@ -20,6 +22,7 @@ void oneOfTwo() {
   }
 }
 
+//1 LED on 2 is turned on alternativly
 void oneOfThree() {
   for (int i = 2; i < 9; i += 3) {
     digitalWrite(i, HIGH);
@@ -40,6 +43,7 @@ void oneOfThree() {
   }
 }
 
+//1 LED is parcouring all the heart
 void chain(int current) {
   if (current == 2) {
     digitalWrite(9, LOW);
@@ -49,22 +53,24 @@ void chain(int current) {
   digitalWrite(current, HIGH);
 }
 
+//only 1 LED choosen by the user is blinking
 void unique(int choice) {
   digitalWrite(choice, HIGH);
   delay(200);
   digitalWrite(choice, LOW);
 }
 
+//random LED is blinking (changes at each pulse)
 void randFunc() {
-  int led;
-  led = random(2, 9);
+  int led = random(2, 9);
   digitalWrite(led, HIGH);
   delay(200);
   digitalWrite(led, LOW);
 }
 
-void AlexisFunc() {
-  while (digitalRead(3) ==HIGH || digitalRead(4) ==HIGH || digitalRead(5) ==HIGH || digitalRead(7) ==HIGH || digitalRead(8) ==HIGH || digitalRead(9) ==HIGH) {
+//LEDs are blinking symmetrically
+void symmetry() {
+  while (digitalRead(3) == HIGH || digitalRead(4) == HIGH || digitalRead(5) == HIGH || digitalRead(7) == HIGH || digitalRead(8) == HIGH || digitalRead(9) == HIGH) {
     digitalWrite(2, HIGH);
     delay(200);
     digitalWrite(2, LOW)
@@ -75,6 +81,7 @@ void AlexisFunc() {
       digitalWrite(i, LOW);
       digitalWrite(j, LOW);
     }
+    delay(200);
     digitalWrite(6, HIGH);
     delay(200);
     digitalWrite(6, LOW);
