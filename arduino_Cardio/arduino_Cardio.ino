@@ -74,32 +74,32 @@ void loop() {
       pulseComputeIndex = 0;
     }
 
-    //    switch (mode) {
-    //      case 1:
-    //        blinkOnRythm();
-    //        break;
-    //      case 2:
-    //        oneOfTwo();
-    //        break;
-    //      case 3:
-    //        oneOfThree();
-    //        break;
-    //      case 4:
-    //        chain(current);
-    //        current++;
-    //        if (current == 10) {
-    //          current = 2;
-    //        }
-    //        break;
-    //      case 5:
-    //        unique(choice);
-    //        break;
-    //      case 6:
-    //        randFunc();
-    //        break;
-    //      case 7:
-    //        symmetry();
-    //    }
-    while(analogRead(0) > 0) {}
+    switch (mode) {
+      case 1:
+        blinkOnRythm();
+        break;
+      case 2:
+        oneOfTwo();
+        break;
+      case 3:
+        oneOfThree();
+        break;
+      case 4:
+        chain(current);
+        current++;
+        if (current == 10) {
+          current = 2;
+        }
+        break;
+      case 5:
+        unique(choice);
+        break;
+      case 6:
+        randFunc();
+        break;
+      case 7:
+        symmetry();
+    }
+    while (analogRead(0) > 0) {}
   }
 }
