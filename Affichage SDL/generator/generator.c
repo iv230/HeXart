@@ -2,7 +2,7 @@
 
 void generateParam(int mode, int choice)
 {
-    char * path = "C:\\Users\\Alex\\Documents\\Travaux\\C\\HeXart\\HeXart\\arduino_Cardio\\param.h";
+    char * path = "C:../../arduino_Cardio/param.h";
 
     FILE * file = fopen(path, "w+");
 

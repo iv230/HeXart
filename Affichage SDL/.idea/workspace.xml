@@ -12,105 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8895e0f8-c565-4c2d-a50a-b9bb7a80ab2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/generator/generator.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/loading/loading.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/utils/utils.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/SDL_ttf.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/SDL_ttf.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/2per2/2per2_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/2per2/2per2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/3per3/3per3_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/3per3/3per3_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/3per3/3per3_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/blink/blink_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/blink/blink_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/chain/chain_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/heart/heart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/heart/heart_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/heart/heart_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/heart/heart_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/heart/heart_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/heart/heart_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/heart/heart_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/ledMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/lonely/lonely_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/lonely/lonely_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/random/random_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/random/random_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/random/random_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/random/random_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/random/random_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/random/random_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/random/random_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/random/random_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/twosides/twosides_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/twosides/twosides_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/twosides/twosides_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/twosides/twosides_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/twosides/twosides_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/twosides/twosides_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/generator.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/generator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loading/loading.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loading/loading.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Copie de A1-Fondamentaux Scientifiques -2018-2019-PROJET_Grille evaluation ETUDIANT (1).xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../arduino_Cardio/.idea/arduino_Cardio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../arduino_Cardio/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../arduino_Cardio/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../arduino_Cardio/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../arduino_Cardio/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../arduino_Cardio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Affichage_SDL.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Affichage_SDL.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Affichage_SDL.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Affichage_SDL.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/menu/menu.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Affichage_SDL.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data/img/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/features/csv.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/features/writer.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CSVLibraryTest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/cmake-build-debug/CSVLibraryTest.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/features/csv.c" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/features/csv.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/features/features.h" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/features/features.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/features/reader.c" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/features/reader.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/features/writer.c" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/features/writer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSVLibraryTest/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../CSVLibraryTest/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mod4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mod4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arduino_Cardio/arduino_Cardio.ino" beforeDir="false" afterPath="$PROJECT_DIR$/../arduino_Cardio/arduino_Cardio.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arduino_Cardio/leds.h" beforeDir="false" afterPath="$PROJECT_DIR$/../arduino_Cardio/leds.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arduino_Cardio/leds.ino" beforeDir="false" afterPath="$PROJECT_DIR$/../arduino_Cardio/leds.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arduino_Cardio/param.h" beforeDir="false" afterPath="$PROJECT_DIR$/../arduino_Cardio/param.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/generator.c" beforeDir="false" afterPath="$PROJECT_DIR$/generator/generator.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,13 +27,13 @@
     <session id="-61955523">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -150,7 +53,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="11823" />
+          <entry key="c" value="11832" />
           <entry key="h" value="168" />
           <entry key="txt" value="105" />
         </counts>
@@ -158,18 +61,18 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="105" />
-          <entry key="ObjectiveC" value="11991" />
+          <entry key="ObjectiveC" value="12000" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator/generator.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="68">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -177,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu/menu.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="130" column="25" lean-forward="true" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+            <state relative-caret-position="840">
+              <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -186,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -219,9 +122,9 @@
         <option value="$PROJECT_DIR$/menu/ledChoiceMenu.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/generator/generator.h" />
-        <option value="$PROJECT_DIR$/generator/generator.c" />
         <option value="$PROJECT_DIR$/menu/menu.c" />
         <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/generator/generator.c" />
       </list>
     </option>
   </component>
@@ -274,7 +177,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - Association Cesi Viacesi mail/EXIA/Prosits/1 - Fondamentaux scientifiques/9 - Structures de donnees" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -329,17 +232,19 @@
       <workItem from="1542338571493" duration="686000" />
       <workItem from="1542339290659" duration="7379000" />
       <workItem from="1542353469273" duration="1536000" />
+      <workItem from="1542376571681" duration="7000" />
+      <workItem from="1542378406616" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39183000" />
+    <option name="totallyTimeSpent" value="39210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -430,23 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator/generator.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu/menu.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="130" column="25" lean-forward="true" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -454,6 +342,23 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu/menu.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/generator.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
