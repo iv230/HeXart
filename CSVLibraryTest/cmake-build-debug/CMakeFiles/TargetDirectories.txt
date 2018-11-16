@@ -1,3 +1,0 @@
-C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/cmake-build-debug/CMakeFiles/CSVLibraryTest.dir
-C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/CSVLibraryTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
