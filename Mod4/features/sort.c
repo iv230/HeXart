@@ -7,6 +7,5 @@
 int sortData(DataFlow *flow, Data *dest, int order, int orderType)
 {
     unpullAll(flow, dest, order, orderType);
-
 }
 

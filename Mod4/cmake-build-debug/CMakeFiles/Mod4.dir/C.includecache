@@ -6,3 +6,23 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataManager/dataManager.h
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/errors.h
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/file/file.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+../dataManager/dataManager.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataManager/dataManager.h
+file.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/file/file.h
+../errors.h
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/errors.h
+
+C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/file/file.h
+

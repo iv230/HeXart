@@ -3,8 +3,13 @@
 #include "../dataManager/dataManager.h"
 #include "dataPrinter.h"
 
-void printData(Data * arrData, int size)
+void printDataArray(Data * arrData, int size) // Il s'agit simplement de parcourir les valeurs du tableau de sorte à les afficher.
 {
     for(int i = 0; i < size; i++)
-        printf("%d, %d\n", arrData[i].timestamp, arrData[i].pulse);
+       printData(arrData[i]);
+}
+
+void printData(Data data)
+{
+    printf("Timestamp: %d, Pulse: %d\n", data.timestamp, data.pulse);
 }
