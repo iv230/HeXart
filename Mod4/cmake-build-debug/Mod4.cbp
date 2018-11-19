@@ -92,6 +92,9 @@
 		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/features/features.h">
 			<Option target="Mod4"/>
 		</Unit>
+		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/features/search.c">
+			<Option target="Mod4"/>
+		</Unit>
 		<Unit filename="C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/features/sort.c">
 			<Option target="Mod4"/>
 		</Unit>

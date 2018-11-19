@@ -1,21 +1,16 @@
 #ifndef MOD4_ACTIONS_H
 #define MOD4_ACTIONS_H
 
-#define TAILLE_MAX 1000
+enum{ MIN, MAX };
 
-/*void displayCsvOrder();
+int sortData(DataFlow * flow, Data * dest, int order, int orderType);
 
-// end displayCSVorder
+int getData(DataFlow * flow, Data * dest, int type, int value);
 
-//crescentSort
+double getAveragePulse(Data * arrData, int size);
 
-int timeCrescentSort(int order);
-void pulseCresentSort();
+int getDataInInterval(DataFlow * flow, Data * dest, int valueMin, int valueMax);
 
-//end crescentSort
-
-void timeDecrescentSort();*/
-
-int sortData(DataFlow *flow, Data *dest, int order, int orderType);
+int getExtremePulse(DataFlow * flow, Data * dest, int extreme);
 
 #endif //MOD4_ACTIONS_H

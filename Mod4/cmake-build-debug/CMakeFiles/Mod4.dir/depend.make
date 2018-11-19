@@ -8,6 +8,11 @@ CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj: ../dataManager/dataManager.h
 CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj: ../dataPrinter/dataPrinter.c
 CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj: ../dataPrinter/dataPrinter.h
 
+CMakeFiles/Mod4.dir/features/search.c.obj: ../dataManager/dataManager.h
+CMakeFiles/Mod4.dir/features/search.c.obj: ../errors.h
+CMakeFiles/Mod4.dir/features/search.c.obj: ../features/features.h
+CMakeFiles/Mod4.dir/features/search.c.obj: ../features/search.c
+
 CMakeFiles/Mod4.dir/features/sort.c.obj: ../dataManager/dataManager.h
 CMakeFiles/Mod4.dir/features/sort.c.obj: ../errors.h
 CMakeFiles/Mod4.dir/features/sort.c.obj: ../features/features.h
@@ -20,11 +25,15 @@ CMakeFiles/Mod4.dir/file/file.c.obj: ../file/file.h
 
 CMakeFiles/Mod4.dir/main.c.obj: ../dataManager/dataManager.h
 CMakeFiles/Mod4.dir/main.c.obj: ../dataPrinter/dataPrinter.h
+CMakeFiles/Mod4.dir/main.c.obj: ../errors.h
 CMakeFiles/Mod4.dir/main.c.obj: ../features/features.h
 CMakeFiles/Mod4.dir/main.c.obj: ../file/file.h
 CMakeFiles/Mod4.dir/main.c.obj: ../main.c
 CMakeFiles/Mod4.dir/main.c.obj: ../menu/menu.h
 
+CMakeFiles/Mod4.dir/menu/menu.c.obj: ../dataManager/dataManager.h
+CMakeFiles/Mod4.dir/menu/menu.c.obj: ../dataPrinter/dataPrinter.h
+CMakeFiles/Mod4.dir/menu/menu.c.obj: ../features/features.h
 CMakeFiles/Mod4.dir/menu/menu.c.obj: ../menu/menu.c
 CMakeFiles/Mod4.dir/menu/menu.c.obj: ../menu/menu.h
 

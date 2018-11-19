@@ -14,8 +14,6 @@ int readFile(char * path, DataFlow * flow)
     if(file == NULL)
         return ERROR;
 
-    int index = 0;
-
     fscanf(file, "%s", line);
 
     while(!feof(file))
@@ -27,30 +25,6 @@ int readFile(char * path, DataFlow * flow)
         pullDataFlow(flow, data);
     }
 
-    /*while (fgets(line, MAX_SIZE, file) != NULL) {
-        int i =0;
-        while(line[i]!=','){
-            i++;
-        }
-        char *timestamp = calloc(20, sizeof(char));
-        for(int j=0; j<i; j++) {
-            timestamp[j]=line[j];
-        }
-
-        char *pulse = calloc(20, sizeof(char));
-        for(int j=0; j<i; j++) {
-            pulse[j]=line[j+(i+1)];
-        }
-        data[index].timestamp =  atoi(timestamp);
-        data[index].pulse = atoi(pulse);
-        if(index==0) {
-            printf("timestamp(ms),pulse\n");
-        } else {
-            printf("%d,%d\n",data[index].timestamp,data[index].pulse);
-        }
-        index ++;
-        }*/
-
-        fclose(file);
+    fclose(file);
 }
 

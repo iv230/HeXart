@@ -56,35 +56,9 @@ include CMakeFiles/Mod4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Mod4.dir/flags.make
 
-CMakeFiles/Mod4.dir/main.c.obj: CMakeFiles/Mod4.dir/flags.make
-CMakeFiles/Mod4.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Mod4.dir/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\main.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\main.c
-
-CMakeFiles/Mod4.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\main.c > CMakeFiles\Mod4.dir\main.c.i
-
-CMakeFiles/Mod4.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\main.c -o CMakeFiles\Mod4.dir\main.c.s
-
-CMakeFiles/Mod4.dir/menu/menu.c.obj: CMakeFiles/Mod4.dir/flags.make
-CMakeFiles/Mod4.dir/menu/menu.c.obj: ../menu/menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Mod4.dir/menu/menu.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\menu\menu.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\menu\menu.c
-
-CMakeFiles/Mod4.dir/menu/menu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/menu/menu.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\menu\menu.c > CMakeFiles\Mod4.dir\menu\menu.c.i
-
-CMakeFiles/Mod4.dir/menu/menu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/menu/menu.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\menu\menu.c -o CMakeFiles\Mod4.dir\menu\menu.c.s
-
 CMakeFiles/Mod4.dir/dataManager/dataManager.c.obj: CMakeFiles/Mod4.dir/flags.make
 CMakeFiles/Mod4.dir/dataManager/dataManager.c.obj: ../dataManager/dataManager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Mod4.dir/dataManager/dataManager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Mod4.dir/dataManager/dataManager.c.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\dataManager\dataManager.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\dataManager\dataManager.c
 
 CMakeFiles/Mod4.dir/dataManager/dataManager.c.i: cmake_force
@@ -94,6 +68,32 @@ CMakeFiles/Mod4.dir/dataManager/dataManager.c.i: cmake_force
 CMakeFiles/Mod4.dir/dataManager/dataManager.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/dataManager/dataManager.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\dataManager\dataManager.c -o CMakeFiles\Mod4.dir\dataManager\dataManager.c.s
+
+CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj: ../dataPrinter/dataPrinter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\dataPrinter\dataPrinter.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\dataPrinter\dataPrinter.c
+
+CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\dataPrinter\dataPrinter.c > CMakeFiles\Mod4.dir\dataPrinter\dataPrinter.c.i
+
+CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\dataPrinter\dataPrinter.c -o CMakeFiles\Mod4.dir\dataPrinter\dataPrinter.c.s
+
+CMakeFiles/Mod4.dir/features/search.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/features/search.c.obj: ../features/search.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Mod4.dir/features/search.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\features\search.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\features\search.c
+
+CMakeFiles/Mod4.dir/features/search.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/features/search.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\features\search.c > CMakeFiles\Mod4.dir\features\search.c.i
+
+CMakeFiles/Mod4.dir/features/search.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/features/search.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\features\search.c -o CMakeFiles\Mod4.dir\features\search.c.s
 
 CMakeFiles/Mod4.dir/features/sort.c.obj: CMakeFiles/Mod4.dir/flags.make
 CMakeFiles/Mod4.dir/features/sort.c.obj: ../features/sort.c
@@ -121,42 +121,57 @@ CMakeFiles/Mod4.dir/file/file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/file/file.c.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\file\file.c -o CMakeFiles\Mod4.dir\file\file.c.s
 
-CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj: CMakeFiles/Mod4.dir/flags.make
-CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj: ../dataPrinter/dataPrinter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\dataPrinter\dataPrinter.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\dataPrinter\dataPrinter.c
+CMakeFiles/Mod4.dir/main.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/main.c.obj: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Mod4.dir/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\main.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\main.c
 
-CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\dataPrinter\dataPrinter.c > CMakeFiles\Mod4.dir\dataPrinter\dataPrinter.c.i
+CMakeFiles/Mod4.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/main.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\main.c > CMakeFiles\Mod4.dir\main.c.i
 
-CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\dataPrinter\dataPrinter.c -o CMakeFiles\Mod4.dir\dataPrinter\dataPrinter.c.s
+CMakeFiles/Mod4.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/main.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\main.c -o CMakeFiles\Mod4.dir\main.c.s
+
+CMakeFiles/Mod4.dir/menu/menu.c.obj: CMakeFiles/Mod4.dir/flags.make
+CMakeFiles/Mod4.dir/menu/menu.c.obj: ../menu/menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Mod4.dir/menu/menu.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Mod4.dir\menu\menu.c.obj   -c C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\menu\menu.c
+
+CMakeFiles/Mod4.dir/menu/menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mod4.dir/menu/menu.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\menu\menu.c > CMakeFiles\Mod4.dir\menu\menu.c.i
+
+CMakeFiles/Mod4.dir/menu/menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mod4.dir/menu/menu.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\menu\menu.c -o CMakeFiles\Mod4.dir\menu\menu.c.s
 
 # Object files for target Mod4
 Mod4_OBJECTS = \
-"CMakeFiles/Mod4.dir/main.c.obj" \
-"CMakeFiles/Mod4.dir/menu/menu.c.obj" \
 "CMakeFiles/Mod4.dir/dataManager/dataManager.c.obj" \
+"CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj" \
+"CMakeFiles/Mod4.dir/features/search.c.obj" \
 "CMakeFiles/Mod4.dir/features/sort.c.obj" \
 "CMakeFiles/Mod4.dir/file/file.c.obj" \
-"CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj"
+"CMakeFiles/Mod4.dir/main.c.obj" \
+"CMakeFiles/Mod4.dir/menu/menu.c.obj"
 
 # External object files for target Mod4
 Mod4_EXTERNAL_OBJECTS =
 
-Mod4.exe: CMakeFiles/Mod4.dir/main.c.obj
-Mod4.exe: CMakeFiles/Mod4.dir/menu/menu.c.obj
 Mod4.exe: CMakeFiles/Mod4.dir/dataManager/dataManager.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/features/search.c.obj
 Mod4.exe: CMakeFiles/Mod4.dir/features/sort.c.obj
 Mod4.exe: CMakeFiles/Mod4.dir/file/file.c.obj
-Mod4.exe: CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/main.c.obj
+Mod4.exe: CMakeFiles/Mod4.dir/menu/menu.c.obj
 Mod4.exe: CMakeFiles/Mod4.dir/build.make
 Mod4.exe: CMakeFiles/Mod4.dir/linklibs.rsp
 Mod4.exe: CMakeFiles/Mod4.dir/objects1.rsp
 Mod4.exe: CMakeFiles/Mod4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Mod4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\Documents\Travaux\C\HeXart\HeXart\Mod4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Mod4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Mod4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

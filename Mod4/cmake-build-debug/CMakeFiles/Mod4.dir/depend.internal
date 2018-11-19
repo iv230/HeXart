@@ -8,6 +8,11 @@ CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.obj
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataManager/dataManager.h
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataPrinter/dataPrinter.c
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataPrinter/dataPrinter.h
+CMakeFiles/Mod4.dir/features/search.c.obj
+ C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataManager/dataManager.h
+ C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/errors.h
+ C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/features/features.h
+ C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/features/search.c
 CMakeFiles/Mod4.dir/features/sort.c.obj
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataManager/dataManager.h
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/errors.h
@@ -21,10 +26,14 @@ CMakeFiles/Mod4.dir/file/file.c.obj
 CMakeFiles/Mod4.dir/main.c.obj
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataManager/dataManager.h
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataPrinter/dataPrinter.h
+ C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/errors.h
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/features/features.h
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/file/file.h
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/main.c
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/menu/menu.h
 CMakeFiles/Mod4.dir/menu/menu.c.obj
+ C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataManager/dataManager.h
+ C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/dataPrinter/dataPrinter.h
+ C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/features/features.h
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/menu/menu.c
  C:/Users/Alex/Documents/Travaux/C/HeXart/HeXart/Mod4/menu/menu.h

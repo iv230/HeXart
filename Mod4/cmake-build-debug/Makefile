@@ -176,6 +176,33 @@ dataPrinter/dataPrinter.c.s:
 	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/dataPrinter/dataPrinter.c.s
 .PHONY : dataPrinter/dataPrinter.c.s
 
+features/search.obj: features/search.c.obj
+
+.PHONY : features/search.obj
+
+# target to build an object file
+features/search.c.obj:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/features/search.c.obj
+.PHONY : features/search.c.obj
+
+features/search.i: features/search.c.i
+
+.PHONY : features/search.i
+
+# target to preprocess a source file
+features/search.c.i:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/features/search.c.i
+.PHONY : features/search.c.i
+
+features/search.s: features/search.c.s
+
+.PHONY : features/search.s
+
+# target to generate assembly for a file
+features/search.c.s:
+	$(MAKE) -f CMakeFiles\Mod4.dir\build.make CMakeFiles/Mod4.dir/features/search.c.s
+.PHONY : features/search.c.s
+
 features/sort.obj: features/sort.c.obj
 
 .PHONY : features/sort.obj
@@ -299,6 +326,9 @@ help:
 	@echo ... dataPrinter/dataPrinter.obj
 	@echo ... dataPrinter/dataPrinter.i
 	@echo ... dataPrinter/dataPrinter.s
+	@echo ... features/search.obj
+	@echo ... features/search.i
+	@echo ... features/search.s
 	@echo ... features/sort.obj
 	@echo ... features/sort.i
 	@echo ... features/sort.s
