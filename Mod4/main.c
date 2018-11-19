@@ -6,7 +6,7 @@
 #include "features/features.h"
 #include "dataPrinter/dataPrinter.h"
 
-int main() {
+int main(int argc, char * argv[]) {
   //menu();
   //displayCsvOrder();
   //timeCrescentSort();
@@ -14,11 +14,11 @@ int main() {
   //timeDecrescentSort();
 
     DataFlow flow = {0};
-    readFile("D:\\GitHub\\GitHub2\\GitHub\\HeXart\\Mod4\\Battements.csv", &flow);
+    readFile("Battements.csv", &flow);
 
     int size = flow.size;
 
-    Data * arrData = calloc(0, sizeof(Data));
+    Data * arrData = calloc(size, sizeof(Data));
     sortData(&flow, arrData, DECRESCENT, TIME);
     printData(arrData, size);
 

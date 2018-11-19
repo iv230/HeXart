@@ -6,29 +6,3 @@
 
 #IncludeRegexTransform: 
 
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/dataManager/dataManager.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/dataPrinter/dataPrinter.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/features/features.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/file/file.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/main.c
-stdio.h
--
-stdlib.h
--
-menu/menu.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu/menu.h
-dataManager/dataManager.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/dataManager/dataManager.h
-file/file.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/file/file.h
-features/features.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/features/features.h
-dataPrinter/dataPrinter.h
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/dataPrinter/dataPrinter.h
-
-D:/GitHub/GitHub2/GitHub/HeXart/Mod4/menu/menu.h
-

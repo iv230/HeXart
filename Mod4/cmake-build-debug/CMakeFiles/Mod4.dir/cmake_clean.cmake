@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Mod4.dir/main.c.obj"
   "CMakeFiles/Mod4.dir/menu/menu.c.obj"
-  "CMakeFiles/Mod4.dir/displayCSVorder.c.obj"
-  "CMakeFiles/Mod4.dir/crescentSort.c.obj"
-  "CMakeFiles/Mod4.dir/decrescentSort.c.obj"
   "CMakeFiles/Mod4.dir/dataManager/dataManager.c.obj"
   "CMakeFiles/Mod4.dir/features/sort.c.obj"
   "CMakeFiles/Mod4.dir/file/file.c.obj"
